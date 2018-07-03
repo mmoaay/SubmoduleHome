@@ -286,10 +286,16 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SubmoduleHome_Example/Pods-SubmoduleHome_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireCodable/AlamofireCodable.framework",
+				"${BUILT_PRODUCTS_DIR}/Bamboots/Bamboots.framework",
 				"${BUILT_PRODUCTS_DIR}/SubmoduleHome/SubmoduleHome.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireCodable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bamboots.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SubmoduleHome.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
