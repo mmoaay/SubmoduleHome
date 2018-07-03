@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SubmoduleHome_Example' do
+  pod 'SubmoduleHome', :path => '../'
+
+  target 'SubmoduleHome_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
